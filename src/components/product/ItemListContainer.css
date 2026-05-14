@@ -1,0 +1,71 @@
+.catalog {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.catalog_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.catalog_title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.catalog_count {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+.catalog_filters {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.filter_btn {
+  padding: 0.4rem 1rem;
+  border: 1px solid var(--border);
+  background: white;
+  border-radius: 100px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  transition: all 0.15s;
+  text-transform: capitalize;
+}
+
+.filter_btn:hover {
+  border-color: var(--text);
+  color: var(--text);
+}
+
+.filter_btn--active {
+  background: var(--text);
+  color: white;
+  border-color: var(--text);
+}
+
+.catalog_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.25rem;
+}
+
+.catalog_loading,
+.catalog_error {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: var(--text-muted);
+}
