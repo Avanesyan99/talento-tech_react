@@ -2,7 +2,7 @@
   border: 1px solid var(--border);
   border-radius: 10px;
   overflow: hidden;
-  background: white;
+  background: var(--bg);
   transition: box-shadow 0s, transform 0s;
   display: flex;
   flex-direction: column;
@@ -79,7 +79,7 @@
 .item-card-btn {
   padding: 0rem 1rem;
   background: var(--accent);
-  color: white;
+  color: var(--accent-text);
   border-radius: 6px;
   font-size: 1rem;
   font-weight: 600;
@@ -88,4 +88,31 @@
 
 .item-card-btn:hover {
   background: var(--accent-hover);
+}
+
+.item-card-stock {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+}
+
+.item-card-add {
+  margin-top: 0.75rem;
+  width: 100%;
+  padding: 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--text);
+}
+
+.item-card-add:hover:not(:disabled) {
+  border-color: var(--text);
+}
+
+.item-card-add:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }

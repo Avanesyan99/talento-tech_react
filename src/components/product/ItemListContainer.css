@@ -23,6 +23,17 @@
   color: var(--text-muted);
 }
 
+.catalog_search {
+  width: 100%;
+  padding: 0.65rem 1rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 1rem;
+  background: var(--bg);
+  color: var(--text);
+}
+
 .catalog_filters {
   display: flex;
   gap: 0rem;
@@ -33,7 +44,7 @@
 .filter_btn {
   padding: 0rem 1rem;
   border: 1px solid var(--border);
-  background: white;
+  background: var(--bg);
   border-radius: 100px;
   font-size: 1rem;
   font-weight: 500;
@@ -49,7 +60,7 @@
 
 .filter_btn--active {
   background: var(--text);
-  color: white;
+  color: var(--accent-text);
   border-color: var(--text);
 }
 
@@ -68,4 +79,30 @@
   justify-content: center;
   gap: 1rem;
   color: var(--text-muted);
+}
+
+.catalog_empty {
+  color: var(--text-muted);
+  margin-top: 1rem;
+}
+
+.catalog_pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.catalog_pagination button {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  cursor: pointer;
+}
+
+.catalog_pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }

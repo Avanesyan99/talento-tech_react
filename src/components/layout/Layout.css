@@ -7,3 +7,15 @@
 .layout_main {
   flex: 1;
 }
+
+.layout_firebase-warning {
+  background: #fef3c7;
+  color: #92400e;
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 0.6rem 1rem;
+}
+
+.layout_firebase-warning code {
+  font-weight: 700;
+}

@@ -16,7 +16,20 @@
   --text-muted: #6b7280;
   --accent: #111827;
   --accent-hover: #374151;
+  --accent-text: #ffffff;
   --danger: #ef4444;
+}
+
+[data-theme="dark"] {
+  --bg: #101216;
+  --bg-subtle: #191c22;
+  --border: #2b2f38;
+  --text: #f3f4f6;
+  --text-muted: #9ca3af;
+  --accent: #f3f4f6;
+  --accent-hover: #d1d5db;
+  --accent-text: #111827;
+  --danger: #f87171;
 }
 
 body {
@@ -25,6 +38,7 @@ body {
   color: var(--text);
   line-height: 2;
   -webkit-font-smoothing: antialiased;
+  transition: background 0.2s ease, color 0.2s ease;
 }
 
 img {
