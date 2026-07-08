@@ -9,7 +9,7 @@
 .header_inner {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 2rem;
   height: 60px;
   display: flex;
   align-items: center;
@@ -18,23 +18,23 @@
 
 .header_logo {
   font-weight: 700;
-  font-size: 1.1rem;
-  letter-spacing: -0.02em;
+  font-size: 1rem;
+  letter-spacing: 0em;
   color: var(--text);
 }
 
 .header_nav {
   display: flex;
   align-items: center;
-  gap: 0.25rem;
+  gap: 0rem;
 }
 
 .nav_link {
-  padding: 0.4rem 0.85rem;
+  padding: 0rem 1rem;
   border-radius: 6px;
-  font-size: 0.875rem;
+  font-size: 1rem;
   color: var(--text-muted);
-  transition: all 0.15s;
+  transition: all 0s;
   font-weight: 500;
 }
 
@@ -50,14 +50,14 @@
 .header_cart {
   display: flex;
   align-items: center;
-  gap: 0.4rem;
-  padding: 0.4rem 0.85rem;
+  gap: 0rem;
+  padding: 0rem 1rem;
   border: 1px solid var(--border);
   border-radius: 6px;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 500;
   color: var(--text);
-  transition: all 0.15s;
+  transition: all 0s;
 }
 
 .header_cart:hover {
@@ -67,7 +67,7 @@
 .cart_badge {
   background: var(--text);
   color: white;
-  font-size: 0.7rem;
+  font-size: 1rem;
   font-weight: 700;
   width: 18px;
   height: 18px;

@@ -1,17 +1,17 @@
 .detail {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 2rem 1.5rem;
+  padding: 2rem 2rem;
 }
 
 .detail_back {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  font-size: 0.875rem;
+  gap: 0rem;
+  font-size: 1rem;
   color: var(--text-muted);
   margin-bottom: 2rem;
-  transition: color 0.15s;
+  transition: color 0s;
 }
 
 .detail_back:hover {
@@ -33,7 +33,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2.5rem;
+  padding: 2rem;
 }
 
 .detail_img {
@@ -43,28 +43,28 @@
 }
 
 .detail_category {
-  font-size: 0.75rem;
+  font-size: 1rem;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0em;
   color: var(--text-muted);
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0rem;
 }
 
 .detail_title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
-  line-height: 1.3;
-  margin-bottom: 0.75rem;
+  line-height: 1;
+  margin-bottom: 1rem;
 }
 
 .detail_rating {
-  font-size: 0.875rem;
+  font-size: 1rem;
   color: var(--text-muted);
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
   display: flex;
   align-items: center;
-  gap: 0.35rem;
+  gap: 0rem;
 }
 
 .detail_rating span {
@@ -74,20 +74,20 @@
 .detail_price {
   font-size: 2rem;
   font-weight: 800;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
 }
 
 .detail_desc {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--text-muted);
-  line-height: 1.7;
+  line-height: 2;
   margin-bottom: 2rem;
 }
 
 .detail_qty-row {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -101,7 +101,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.15s;
+  transition: all 0s;
 }
 
 .qty_btn:hover {
@@ -117,15 +117,15 @@
 
 .detail_add {
   width: 100%;
-  padding: 0.875rem;
+  padding: 1rem;
   background: var(--accent);
   color: white;
   border: none;
   border-radius: 8px;
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-weight: 600;
-  transition: background 0.15s;
-  margin-bottom: 0.75rem;
+  transition: background 0s;
+  margin-bottom: 1rem;
 }
 
 .detail_add:hover {
@@ -139,9 +139,9 @@
 .detail_cart-link {
   display: block;
   text-align: center;
-  font-size: 0.875rem;
+  font-size: 1rem;
   color: var(--text-muted);
-  transition: color 0.15s;
+  transition: color 0s;
 }
 
 .detail_cart-link:hover {
@@ -155,18 +155,18 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 2rem;
   color: var(--text-muted);
 }
 
 .btn-back {
-  padding: 0.6rem 1.25rem;
+  padding: 1rem 1rem;
   background: var(--accent);
   color: white;
   border-radius: 7px;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 600;
-  transition: background 0.15s;
+  transition: background 0s;
 }
 
 .btn-back:hover {
